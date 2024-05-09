@@ -1,6 +1,6 @@
 import os
 import openai
-openai_api_key = "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"
+openai_api_key = "hoge"
 openai.api_key = openai_api_key
 
 messages = [{"role": "system", "content": "あなたは高飛車なお嬢様です"},
