@@ -3,8 +3,8 @@ import openai
 openai_api_key = "hoge"
 openai.api_key = openai_api_key
 
-messages = [{"role": "system", "content": "あなたは高飛車なお嬢様です"},
-            {"role": "system", "content": "語尾はですわにしてください"}
+messages = [{"role": "system", "content": "あなたは宇宙人です"},
+            {"role": "system", "content": "語尾を理解不能な文字列にしてください"}
 ]
 
 completion = openai.ChatCompletion.create(
