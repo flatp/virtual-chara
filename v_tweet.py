@@ -6,11 +6,11 @@ import random
 import datetime
 
 # Twitterの認証情報
-B_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAFGkpwEAAAAArjixo8rnU10Q%2BbE83bK2ClMbIaY%3DbbdsarfObdyCXRoLUCkIC5jxpsRFr1zGl0WaNiWjRhD7yyjmuY'
-C_KEY = 'Na31sGRdUqcIBv2PxT0Zr4px5'
-C_SEC = 'HglySZ4L153kh2gPcTFyxxWFNGcOdK2NEuCGWUormonmafDNbh'
-A_TOKEN = '1701511944795193344-3UUOFkScjnawq2VBhKxRlZ4VyLNKvG'
-A_SEC = 'dY26H7kYF3MdD4GLth80RXGxCCnFO7215ZfTF8Gylqk3h'
+B_TOKEN = 'hoge'
+C_KEY = 'hoge'
+C_SEC = 'hoge'
+A_TOKEN = 'hoge'
+A_SEC = 'hoge'
 
 auth = tweepy. OAuthHandler ( C_KEY, C_SEC)
 auth. set_access_token(A_TOKEN, A_SEC)
@@ -20,7 +20,7 @@ client = tweepy.Client(bearer_token=B_TOKEN,
                     consumer_key=C_KEY, consumer_secret=C_SEC,
                     access_token=A_TOKEN, access_token_secret=A_SEC)
 
-openai_api_key = "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"
+openai_api_key = "hoge"
 openai.api_key = openai_api_key
 
 def create_image_from_text(text):
